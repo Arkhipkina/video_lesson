@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+
+.logo{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    width: 19.3rem;
+    margin: 3rem;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.logo:hover a{
+    color:black;
+}
+
+.info_video{
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 1px;
+    width: 560px;
+    background-color: #333333;
+    color: white;
+}
+
+.desc{
+    margin: 10px;
+}
+
+.video_row{
+    display: flex;
+    flex-direction: row;
+    justify-content:  center;
+    flex-wrap: wrap;
+}
